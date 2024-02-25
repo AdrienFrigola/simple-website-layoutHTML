@@ -1,0 +1,60 @@
+/* Apply box-sizing border-box to all elements */
+* {
+    box-sizing: border-box;
+}
+
+/* Remove default margin from body */
+body {
+    margin: 0;
+}
+
+/* Style for header element */
+header {
+    background-color: hsl(0, 0%, 85%); /* Set background color */
+    text-align: center; /* Center-align text */
+    padding: 25px; /* Add padding */
+}
+
+/* Style for navbar */
+.navbar {
+    background-color: hsl(0, 0%, 15%); /* Set background color */
+    height: 50px; /* Set height */
+}
+
+/* Style for aside element */
+aside {
+    width: 20%; /* Set width */
+    float: left; /* Float left */
+    padding: 10px; /* Add padding */
+}
+
+/* Style for section element */
+section {
+    width: 40%; /* Set width */
+    float: left; /* Float left */
+    padding: 10px; /* Add padding */
+}
+
+/* Style for article element */
+article {
+    width: 40%; /* Set width */
+    float: left; /* Float left */
+    padding: 10px; /* Add padding */
+}
+
+/* Style for footer element */
+footer {
+    display: block; /* Display block */
+    clear: both; /* Clear floats */
+    background-color: hsl(0, 0%, 85%); /* Set background color */
+    text-align: center; /* Center-align text */
+    padding: 25px; /* Add padding */
+}
+
+/* Media query for screens less than 600px */
+@media screen and (max-width: 600px) {
+    /* Set width of aside, section, and article to 100% */
+    aside, section, article {
+        width: 100%;
+    }
+}
